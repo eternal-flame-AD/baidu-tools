@@ -5,12 +5,13 @@ import (
 	"bytes"
 	"errors"
 	"fmt"
-	"github.com/iikira/BaiduPCS-Go/requester"
-	"github.com/json-iterator/go"
 	"net/http"
 	"net/url"
 	"path"
 	"strings"
+
+	"github.com/eternal-flame-AD/BaiduPCS-Go/requester"
+	"github.com/json-iterator/go"
 )
 
 // SharedInfo 百度网盘文件分享页信息

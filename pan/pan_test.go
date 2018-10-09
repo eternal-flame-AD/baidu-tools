@@ -2,8 +2,9 @@ package pan
 
 import (
 	"fmt"
-	"github.com/iikira/BaiduPCS-Go/requester"
 	"testing"
+
+	"github.com/eternal-flame-AD/BaiduPCS-Go/requester"
 )
 
 func TestPan(t *testing.T) {
